@@ -11,7 +11,7 @@ Feel free to PR add new stuff or fix up any mistakes highly appreciated!
 
 ### Compilation
 
-You could go to [ADGSTUDIOS LaTeX Platform](latex.adgstudios.co.za) if exists (Google Cloud always causing some problem with my VM); [Overleaf](https://www.overleaf.com/) , or create an environment locally on your PC.
+You could go to [ADGSTUDIOS LaTeX Platform](http://latex.adgstudios.co.za) if exists (Google Cloud always causing some problem with my VM); [Overleaf](https://www.overleaf.com/) , or create an environment locally on your PC.
 
 
 
