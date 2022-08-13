@@ -136,7 +136,7 @@ Example: Evaulating $C_{3}^{4}$
     \end{split}
 \end{equation}
 
-\subsection{Binomial Theorem}
+\subsubsection{Binomial Theorem}
 
 In elementary algebra, the binomial theorem (or binomial expansion) describes the algebraic expansion of powers of a binomial. According to the theorem, it is possible to expand the polynomial $(x + y)^n$ into a sum involving terms of the form $ax^{b}y^{c}$, where the exponents $b$ and $c$ are nonnegative integers with $b + c = n$, and the coefficient a of each term is a specific positive integer depending on $n$ and $b$.
 
@@ -258,10 +258,11 @@ First lets work out an expression for $(\cos{\theta}+i\sin{\theta})^n+ (\cos{\th
         \text{also $z^{-n}=(\cos{\theta}+i\sin{\theta})^{-n}$} \\                            
         \text{now we work out what $z^n$+$z^{-n}$ is} \\
         = (\cos{\theta}+i\sin{\theta})^n+ (\cos{\theta}+i\sin{\theta})^{-n} \\        
-        = \cos{(ne)}+i\sin{(ne)}+\cos{(-ne)}+i\sin{(-ne)} \\
-        = \cos{(ne)}+i\sin{(ne)}+\cos{(ne)}-i\sin{(ne)} \\
-        = 2cos{(ne)} \\
-        \therefore z^{n}+z^{-n} = 2\cos{ne} \\
+        = \cos{(n\theta)}+i\sin{(n\theta)}+\cos{(-n\theta)}+i\sin{(-n\theta)} \\
+        = \cos{(n\theta)}+i\sin{(n\theta)}+\cos{(n\theta)}-i\sin{(n\theta)} \\
+        = 2cos{(n\theta)} \\
+        \therefore z^{n}+z^{-n} = 2\cos{n\theta} \\
+        \therefore z^{n}-z^{-n} = 2i\sin{n\theta} \\
         \text{rewriting this expression can be seen as $(z+z^{-1})^n = (2cos\theta)^n$}\\        
         \land (z-z^{-1})^n = (2i\sin{\theta})^n \\ 
     \end{split}
